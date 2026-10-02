@@ -26,7 +26,7 @@ type CardProps = { project: Project; index: number; onOpen: (p: Project, el: HTM
 function ProjectCard({ project, index, onOpen }: CardProps) {
   const { t } = useT();
   const hasMetric = !!project.keyMetricValue;
-  // Nama aksesibel = judul + KPI (brief §10).
+  // Nama aksesibel = judul + KPI.
   const label = [t(project.title), hasMetric ? `${project.keyMetricValue} ${t(project.keyMetricLabel)}` : '']
     .filter(Boolean)
     .join(', ');

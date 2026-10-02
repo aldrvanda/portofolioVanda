@@ -45,7 +45,7 @@ export default function Header({ sections }: Props) {
     return () => io.disconnect();
   }, [sections.projects, sections.experience]);
 
-  /** Scroll ke section lalu pindahkan fokus ke heading-nya (brief §10 Keyboard). */
+  /** Scroll ke section lalu pindahkan fokus ke heading-nya. */
   const goTo = (id: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const section = document.getElementById(id);

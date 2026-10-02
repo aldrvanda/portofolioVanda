@@ -20,7 +20,7 @@ export default function Contact({ links }: { links: ContactLink[] }) {
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const emailRef = useRef<HTMLParagraphElement>(null);
 
-  // Tombol salin hanya dirender jika Clipboard API tersedia (PRD bagian 8).
+  // Tombol salin hanya dirender jika Clipboard API tersedia.
   useEffect(() => {
     setCanCopy(!!navigator.clipboard && window.isSecureContext);
     return () => {

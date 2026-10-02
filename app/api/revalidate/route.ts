@@ -3,7 +3,7 @@ import { type NextRequest, NextResponse } from 'next/server';
 import { parseBody } from 'next-sanity/webhook';
 
 /**
- * Dipanggil webhook Sanity setiap kali konten di-publish (PRD FR-07.2).
+ * Dipanggil webhook Sanity setiap kali konten di-publish.
  * Header signature diverifikasi dengan SANITY_REVALIDATE_SECRET.
  */
 export async function POST(req: NextRequest) {

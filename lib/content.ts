@@ -6,7 +6,7 @@ import { CONTENT_QUERY } from '@/sanity/lib/queries';
 
 const hasEn = (l?: L | null) => !!l && typeof l.en === 'string' && l.en.trim().length > 0;
 
-/** PRD bagian 8: entri dengan field wajib kosong tidak dirender, dengan warning saat build. */
+/** Entri dengan field wajib kosong tidak dirender, dengan warning saat build. */
 function validProject(p: Project): boolean {
   const ok =
     !!p.slug && hasEn(p.title) && hasEn(p.summary) && hasEn(p.problem) && hasEn(p.solution) && hasEn(p.myRole);
@@ -64,7 +64,7 @@ export async function getContent(): Promise<Content> {
     // Sanity belum disetel: pakai konten dari CV supaya website tetap bisa launch.
     return clean(seed as unknown as Content);
   }
-  // Jika fetch gagal, error dilempar → build gagal dan deploy lama tetap live (PRD bagian 8).
+  // Jika fetch gagal, error dilempar → build gagal dan deploy lama tetap live.
   const data = await client.fetch<Content>(CONTENT_QUERY, {}, { next: { tags: ['content'] } });
   if (!data.profile || !data.profile.fullName) {
     throw new Error('[content] Profile document is missing in Sanity. Create and publish it in /studio.');
