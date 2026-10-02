@@ -1,0 +1,455 @@
+{
+  "profile": {
+    "fullName": "Aldreine Vanda Kauntu",
+    "roleTitle": {
+      "en": "Data Analyst · CS Student (Database)",
+      "id": "Data Analyst · Mahasiswa CS (Database)"
+    },
+    "tagline": {
+      "en": "Strong data foundations: clean schemas, reliable pipelines, and dashboards that answer real business questions.",
+      "id": "Fondasi data yang kuat: skema yang rapi, pipeline yang andal, dan dashboard yang menjawab pertanyaan bisnis nyata."
+    },
+    "about": {
+      "en": "Computer Science (Database) student at BINUS. I model data into star schemas, automate ETL pipelines, and build Power BI and Tableau dashboards that answer business questions. I also lead HIMTI's 152-member education commission.",
+      "id": "Mahasiswa Computer Science (Database) di BINUS. Saya memodelkan data menjadi star schema, mengotomasi pipeline ETL, dan membangun dashboard Power BI dan Tableau yang menjawab pertanyaan bisnis. Saya juga memimpin komisi edukasi HIMTI beranggotakan 152 orang."
+    },
+    "education": {
+      "institution": "Bina Nusantara University",
+      "degree": {
+        "en": "Bachelor of Computer Science",
+        "id": "Sarjana Ilmu Komputer"
+      },
+      "major": {
+        "en": "Database",
+        "id": "Database"
+      },
+      "startDate": "2024-08-01"
+    },
+    "seoDescription": {
+      "en": "Data Analyst and Computer Science (Database) student at BINUS. ETL pipelines, star schemas, and Power BI/Tableau dashboards.",
+      "id": "Data Analyst dan mahasiswa Computer Science (Database) di BINUS. Pipeline ETL, star schema, dan dashboard Power BI/Tableau."
+    },
+    "gallery": [
+      {
+        "url": "/gallery/recap-1.jpg",
+        "alt": {
+          "en": "Portrait of Vanda in the HIMTI shirt",
+          "id": "Potret Vanda dengan kemeja HIMTI"
+        },
+        "position": "50% 20%"
+      },
+      {
+        "url": "/gallery/recap-2.jpg",
+        "alt": {
+          "en": "HIMTI team group photo in blue One Family One Goal shirts",
+          "id": "Foto bersama tim HIMTI berkemeja biru One Family One Goal"
+        },
+        "position": "30% 50%"
+      },
+      {
+        "url": "/gallery/recap-3.jpg",
+        "alt": {
+          "en": "HIMTI team formation photo in blue One Family One Goal shirts",
+          "id": "Foto formasi tim HIMTI berkemeja biru One Family One Goal"
+        }
+      },
+      {
+        "url": "/gallery/recap-4.jpg",
+        "alt": {
+          "en": "Playful pose with HIMTI teammates",
+          "id": "Pose seru bersama rekan HIMTI"
+        },
+        "position": "62% 50%"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "programming_language",
+      "order": 1
+    },
+    {
+      "name": "Java",
+      "category": "programming_language",
+      "order": 2
+    },
+    {
+      "name": "C",
+      "category": "programming_language",
+      "order": 3
+    },
+    {
+      "name": "TypeScript",
+      "category": "programming_language",
+      "order": 4
+    },
+    {
+      "name": "SQL",
+      "category": "programming_language",
+      "order": 5
+    },
+    {
+      "name": "Pentaho Data Integration",
+      "category": "data_engineering",
+      "order": 1
+    },
+    {
+      "name": "Cloudera",
+      "category": "data_engineering",
+      "order": 2
+    },
+    {
+      "name": "MySQL",
+      "category": "data_engineering",
+      "order": 3
+    },
+    {
+      "name": "MongoDB",
+      "category": "data_engineering",
+      "order": 4
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "data_engineering",
+      "order": 5
+    },
+    {
+      "name": "Power BI",
+      "category": "data_visualization",
+      "order": 1
+    },
+    {
+      "name": "Tableau",
+      "category": "data_visualization",
+      "order": 2
+    },
+    {
+      "name": "Next.js",
+      "category": "web_development",
+      "order": 1
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "web_development",
+      "order": 2
+    },
+    {
+      "name": "REST API",
+      "category": "web_development",
+      "order": 3
+    },
+    {
+      "name": "Figma",
+      "category": "design",
+      "order": 1
+    }
+  ],
+  "projects": [
+    {
+      "slug": "healthcare-analytics-pipeline",
+      "title": {
+        "en": "Automated Healthcare Analytics Pipeline"
+      },
+      "year": 2026,
+      "keyMetricValue": "55,500",
+      "keyMetricLabel": {
+        "en": "healthcare records modeled",
+        "id": "rekam data kesehatan dimodelkan"
+      },
+      "summary": {
+        "en": "An automated ETL pipeline that turns raw healthcare records into a star-schema warehouse and a Power BI dashboard.",
+        "id": "Pipeline ETL otomatis yang mengubah data kesehatan mentah menjadi data warehouse star schema dan dashboard Power BI."
+      },
+      "problem": {
+        "en": "Raw healthcare records contained invalid entries and had to be cleaned, modeled, and refreshed before anyone could trust a dashboard built on them.",
+        "id": "Data kesehatan mentah mengandung entri tidak valid dan harus dibersihkan, dimodelkan, dan diperbarui sebelum dashboard di atasnya bisa dipercaya."
+      },
+      "solution": {
+        "en": "Built an ETL pipeline with Pentaho Data Integration and MySQL that loads 55,500 records into a star-schema data warehouse, with multi-layer validation and an interactive Power BI dashboard on top. A 3-stage Pentaho job with error logging orchestrates the full refresh.",
+        "id": "Membangun pipeline ETL dengan Pentaho Data Integration dan MySQL yang memuat 55.500 record ke data warehouse star schema, dengan validasi berlapis dan dashboard Power BI interaktif di atasnya. Job Pentaho 3 tahap dengan error logging menjalankan seluruh proses refresh."
+      },
+      "myRole": {
+        "en": "Built the ETL pipeline, the star-schema model, the validation rules, and the dashboard.",
+        "id": "Membangun pipeline ETL, model star schema, aturan validasi, dan dashboard."
+      },
+      "impact": {
+        "en": "Filtered out 21% invalid data before it reached the warehouse. The full refresh runs automatically in about 6 minutes.",
+        "id": "Menyaring 21% data tidak valid sebelum masuk ke warehouse. Refresh penuh berjalan otomatis dalam sekitar 6 menit."
+      },
+      "stack": [
+        "Pentaho Data Integration",
+        "MySQL",
+        "Power BI"
+      ],
+      "featured": true,
+      "order": 1,
+      "images": [
+        {
+          "url": "/projects/healthcare-powerbi-dashboard.png",
+          "alt": {
+            "en": "Power BI healthcare dashboard showing total encounters, total billing, high-risk encounters, average length of stay, risk distribution, average billing by condition, monthly visit trends, and patients by age group.",
+            "id": "Dashboard Power BI kesehatan berisi total kunjungan, total tagihan, kunjungan berisiko tinggi, rata-rata lama rawat, distribusi risiko, rata-rata tagihan per penyakit, tren kunjungan bulanan, dan pasien per kelompok usia."
+          }
+        }
+      ],
+      "repoUrl": "https://github.com/aldrvanda/AutomatedHealthcarePipeline"
+    },
+    {
+      "slug": "retail-sales-intelligence",
+      "title": {
+        "en": "Retail Sales Intelligence Dashboard"
+      },
+      "year": 2026,
+      "keyMetricValue": "$323K",
+      "keyMetricLabel": {
+        "en": "in sales analyzed",
+        "id": "penjualan dianalisis"
+      },
+      "summary": {
+        "en": "An interactive Tableau dashboard on a star-schema model that explains sales across 3 branches and 6 product lines.",
+        "id": "Dashboard Tableau interaktif di atas model star schema yang menjelaskan penjualan di 3 cabang dan 6 lini produk."
+      },
+      "problem": {
+        "en": "Find which branches drive sales, and explain a 32% sales drop in mid-February.",
+        "id": "Menemukan cabang mana yang mendorong penjualan, dan menjelaskan penurunan penjualan 32% di pertengahan Februari."
+      },
+      "solution": {
+        "en": "Modeled 1,000 transactions into a star schema and built a Tableau dashboard with dynamic metric switching, branch-split trends, and cross-view filtering.",
+        "id": "Memodelkan 1.000 transaksi menjadi star schema dan membangun dashboard Tableau dengan pergantian metrik dinamis, tren per cabang, dan cross-view filtering."
+      },
+      "myRole": {
+        "en": "Built the data model and the dashboard, and ran the analysis.",
+        "id": "Membangun model data dan dashboard, serta melakukan analisis."
+      },
+      "impact": {
+        "en": "Identified Naypyitaw as the top branch ($110.6K) with the fewest transactions (328), meaning the highest spend per visit. Traced the mid-February drop to a system-wide slowdown across all six product lines rather than a single category.",
+        "id": "Menemukan Naypyitaw sebagai cabang teratas ($110,6K) dengan transaksi paling sedikit (328), artinya belanja per kunjungan tertinggi. Menelusuri penurunan pertengahan Februari ke perlambatan menyeluruh di keenam lini produk, bukan satu kategori saja."
+      },
+      "stack": [
+        "Tableau",
+        "Star Schema"
+      ],
+      "featured": false,
+      "order": 2,
+      "images": [
+        {
+          "url": "/projects/retail-tableau-dashboard.png",
+          "alt": {
+            "en": "Tableau dashboard of supermarket sales, January to March 2019: profit, units sold, and transaction count, weekly profit trend, profit by product line and week, product line breakdown, and profit by branch city with Naypyitaw highest.",
+            "id": "Dashboard Tableau penjualan supermarket Januari sampai Maret 2019: profit, unit terjual, dan jumlah transaksi, tren profit mingguan, profit per lini produk dan minggu, rincian lini produk, serta profit per kota cabang dengan Naypyitaw tertinggi."
+          }
+        }
+      ],
+      "repoUrl": "https://github.com/aldrvanda/RetailSalesDashboard",
+      "demoUrl": "https://public.tableau.com/app/profile/edbert.gunawan.hendy/viz/DataVisualization_17802836358140/SupermarketSales"
+    },
+    {
+      "slug": "chillo-food-waste-tracker",
+      "title": {
+        "en": "Chillo: Smart Fridge & Food Waste Tracker"
+      },
+      "year": 2026,
+      "summary": {
+        "en": "A full-stack web app that tracks food expiry dates and logs spoiled items to cut household food waste.",
+        "id": "Aplikasi web full-stack yang melacak tanggal kedaluwarsa makanan dan mencatat makanan basi untuk mengurangi sampah makanan rumah tangga."
+      },
+      "problem": {
+        "en": "Households lose track of what is in the fridge, so food expires unnoticed and money is wasted.",
+        "id": "Rumah tangga sering lupa isi kulkas, sehingga makanan kedaluwarsa tanpa disadari dan uang terbuang."
+      },
+      "solution": {
+        "en": "Tracks expiry dates, sends automatic expiry alerts, and logs spoiled items. A waste analytics dashboard (Recharts) shows a Kitchen Score, financial loss estimates in IDR, and CSV export.",
+        "id": "Melacak tanggal kedaluwarsa, mengirim pengingat otomatis, dan mencatat makanan basi. Dashboard analitik sampah (Recharts) menampilkan Kitchen Score, estimasi kerugian dalam Rupiah, dan ekspor CSV."
+      },
+      "myRole": {
+        "en": "Built and deployed the full stack with Next.js (App Router), TypeScript, and MongoDB, including a REST API, session-based authentication, and Jest unit and integration tests.",
+        "id": "Membangun dan men-deploy seluruh stack dengan Next.js (App Router), TypeScript, dan MongoDB, termasuk REST API, autentikasi berbasis sesi, serta unit dan integration test dengan Jest."
+      },
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "featured": false,
+      "order": 3,
+      "images": [
+        {
+          "url": "/projects/chillo-reports.png",
+          "alt": {
+            "en": "Chillo Reports page: inventory snapshot (12 items, 10 safe, 1 expiring soon, 1 expired), financial impact of Rp 95,000 in wasted food, 3 items wasted, kitchen score 87/100, waste by category donut chart, cooked vs discarded bar chart, and a waste log table with CSV export.",
+            "id": "Halaman Reports Chillo: ringkasan inventaris (12 item, 10 aman, 1 segera kedaluwarsa, 1 kedaluwarsa), dampak finansial Rp 95.000 dari bahan terbuang, 3 item terbuang, kitchen score 87/100, diagram donat limbah per kategori, grafik batang dimasak vs dibuang, dan tabel waste log dengan ekspor CSV."
+          }
+        }
+      ],
+      "repoUrl": "https://github.com/aldrvanda/SoftEng_SmartRefrigerator",
+      "demoUrl": "https://chillo-bice.vercel.app/"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "himti-gm-education",
+      "role": {
+        "en": "General Manager of Education",
+        "id": "General Manager of Education"
+      },
+      "organization": "HIMTI (Himpunan Mahasiswa Teknik Informatika), BINUS",
+      "type": "organization",
+      "startDate": "2026-02-01",
+      "highlights": [
+        {
+          "en": "Lead an Education Commission of 152 activists across 7 regional campuses.",
+          "id": "Memimpin Komisi Edukasi beranggotakan 152 aktivis di 7 kampus regional."
+        },
+        {
+          "en": "Supervise the Academic Event division: seminars, company visits, workshops, community outreach, and webinars.",
+          "id": "Mengawasi divisi Academic Event: seminar, company visit, workshop, pengabdian masyarakat, dan webinar."
+        },
+        {
+          "en": "Supervise the Responsi division, which runs student learning programs: responsi sessions, study clubs, and summaries.",
+          "id": "Mengawasi divisi Responsi yang menjalankan program belajar mahasiswa: responsi, study club, dan rangkuman materi."
+        }
+      ],
+      "photo": {
+        "url": "/experience/himti-gm-education-seminar.jpg",
+        "alt": {
+          "en": "Committee and participants at the Mancer Web3 Career Hub seminar",
+          "id": "Panitia dan peserta seminar Mancer Web3 Career Hub"
+        }
+      },
+      "photoBack": {
+        "url": "/experience/himti-gm-education.jpg",
+        "alt": {
+          "en": "Vanda with fellow HIMTI leaders in blue One Family One Goal shirts",
+          "id": "Vanda bersama rekan pengurus HIMTI berkemeja biru One Family One Goal"
+        }
+      }
+    },
+    {
+      "id": "himti-ldkcp-2026",
+      "role": {
+        "en": "Secretary, HIMTI LDKCP 2026",
+        "id": "Sekretaris, HIMTI LDKCP 2026"
+      },
+      "organization": "HIMTI (Himpunan Mahasiswa Teknik Informatika), BINUS",
+      "type": "organization",
+      "startDate": "2026-02-01",
+      "endDate": "2026-07-01",
+      "highlights": [
+        {
+          "en": "Ran event planning and administrative operations for HIMTI LDKCP 2026.",
+          "id": "Menjalankan perencanaan acara dan operasional administrasi HIMTI LDKCP 2026."
+        },
+        {
+          "en": "Wrote the administrative documents, official letters, and proposals the event ran on.",
+          "id": "Menyusun dokumen administrasi, surat resmi, dan proposal yang menjadi dasar acara."
+        }
+      ],
+      "photo": {
+        "url": "/experience/himti-ldkcp-2026.jpg",
+        "alt": {
+          "en": "Group photo of HIMTI LDKCP 2026 participants and committee",
+          "id": "Foto bersama peserta dan panitia HIMTI LDKCP 2026"
+        }
+      },
+      "photoBack": {
+        "url": "/experience/himti-ldkcp-2026-back.jpg",
+        "alt": {
+          "en": "Vanda discussing plans with a fellow committee member at LDKCP",
+          "id": "Vanda berdiskusi dengan rekan panitia saat LDKCP"
+        }
+      }
+    },
+    {
+      "id": "himti-company-visit-2025",
+      "role": {
+        "en": "Secretary, HIMTI Company Visit 2025",
+        "id": "Sekretaris, HIMTI Company Visit 2025"
+      },
+      "organization": "HIMTI (Himpunan Mahasiswa Teknik Informatika), BINUS",
+      "type": "organization",
+      "startDate": "2025-11-01",
+      "endDate": "2026-01-01",
+      "highlights": [
+        {
+          "en": "Secured CIMB Niaga as the official host company.",
+          "id": "Menggandeng CIMB Niaga sebagai perusahaan tuan rumah resmi."
+        },
+        {
+          "en": "Managed all event administration and documentation, and led theme ideation and cross-division coordination.",
+          "id": "Mengelola seluruh administrasi dan dokumentasi acara, serta memimpin penyusunan tema dan koordinasi lintas divisi."
+        }
+      ],
+      "photo": {
+        "url": "/experience/himti-company-visit-2025.jpg",
+        "alt": {
+          "en": "HIMTI Company Visit group photo with the LINK IT banner",
+          "id": "Foto bersama Company Visit HIMTI dengan spanduk LINK IT"
+        }
+      },
+      "photoBack": {
+        "url": "/experience/himti-company-visit-2025-back.jpg",
+        "alt": {
+          "en": "Participants seated at the CIMB Niaga Career Festival company visit",
+          "id": "Peserta duduk di company visit CIMB Niaga Career Festival"
+        }
+      }
+    },
+    {
+      "id": "himti-nvidia-workshop-2025",
+      "role": {
+        "en": "Chairman, HIMTI Workshop 2025 with NVIDIA",
+        "id": "Ketua, HIMTI Workshop 2025 bersama NVIDIA"
+      },
+      "organization": "HIMTI (Himpunan Mahasiswa Teknik Informatika), BINUS",
+      "type": "organization",
+      "startDate": "2025-06-01",
+      "endDate": "2025-08-01",
+      "highlights": [
+        {
+          "en": "Led a 10-person committee to deliver a Conversational AI workshop for 30 participants.",
+          "id": "Memimpin panitia 10 orang untuk menyelenggarakan workshop Conversational AI bagi 30 peserta."
+        },
+        {
+          "en": "Designed the workshop theme around industry demand and brought in an NVIDIA-certified instructor.",
+          "id": "Merancang tema workshop sesuai kebutuhan industri dan menghadirkan instruktur bersertifikat NVIDIA."
+        }
+      ],
+      "photo": {
+        "url": "/experience/himti-nvidia-workshop-2025.jpg",
+        "alt": {
+          "en": "Zoom gallery of committee and participants during the online workshop",
+          "id": "Galeri Zoom panitia dan peserta saat workshop daring"
+        }
+      },
+      "photoBack": {
+        "url": "/experience/himti-nvidia-workshop-2025-back.jpg",
+        "alt": {
+          "en": "Vanda giving the opening speech as Chairman of HIMTI Workshop 2025",
+          "id": "Vanda menyampaikan kata sambutan sebagai Ketua HIMTI Workshop 2025"
+        }
+      }
+    }
+  ],
+  "contactLinks": [
+    {
+      "type": "email",
+      "label": "Email",
+      "value": "aldrvanda@gmail.com",
+      "order": 1
+    },
+    {
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "value": "https://www.linkedin.com/in/aldreine-vanda-kauntu",
+      "order": 2
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "value": "https://github.com/aldrvanda",
+      "order": 3
+    }
+  ]
+}
