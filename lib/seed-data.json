@@ -158,8 +158,8 @@
         "id": "rekam data kesehatan dimodelkan"
       },
       "summary": {
-        "en": "An automated ETL pipeline that turns raw healthcare records into a star-schema warehouse and a Power BI dashboard.",
-        "id": "Pipeline ETL otomatis yang mengubah data kesehatan mentah menjadi data warehouse star schema dan dashboard Power BI."
+        "en": "An automated ETL pipeline that turns raw healthcare records into a star-schema warehouse and a Power BI dashboard. Built as a group project.",
+        "id": "Pipeline ETL otomatis yang mengubah data kesehatan mentah menjadi data warehouse star schema dan dashboard Power BI. Dikerjakan sebagai proyek kelompok."
       },
       "problem": {
         "en": "Raw healthcare records contained invalid entries and had to be cleaned, modeled, and refreshed before anyone could trust a dashboard built on them.",
@@ -207,8 +207,8 @@
         "id": "penjualan dianalisis"
       },
       "summary": {
-        "en": "An interactive Tableau dashboard on a star-schema model that explains sales across 3 branches and 6 product lines.",
-        "id": "Dashboard Tableau interaktif di atas model star schema yang menjelaskan penjualan di 3 cabang dan 6 lini produk."
+        "en": "An interactive Tableau dashboard on a star-schema model that explains sales across 3 branches and 6 product lines. Built as a group project.",
+        "id": "Dashboard Tableau interaktif di atas model star schema yang menjelaskan penjualan di 3 cabang dan 6 lini produk. Dikerjakan sebagai proyek kelompok."
       },
       "problem": {
         "en": "Find which branches drive sales, and explain a 32% sales drop in mid-February.",
@@ -257,8 +257,8 @@
         "id": "order dianalisis"
       },
       "summary": {
-        "en": "Statistical analysis and a Random Forest price model on three months of Amazon India fashion orders, published as an interactive report.",
-        "id": "Analisis statistik dan model harga Random Forest atas tiga bulan order fashion Amazon India, dipublikasikan sebagai laporan interaktif."
+        "en": "Statistical analysis and a Random Forest price model on three months of Amazon India fashion orders, published as an interactive report. Built as a group project.",
+        "id": "Analisis statistik dan model harga Random Forest atas tiga bulan order fashion Amazon India, dipublikasikan sebagai laporan interaktif. Dikerjakan sebagai proyek kelompok."
       },
       "problem": {
         "en": "Find what drives revenue and order value, why orders fail, and whether promotions change what customers spend.",
@@ -310,8 +310,8 @@
       },
       "year": 2026,
       "summary": {
-        "en": "A full-stack web app that tracks food expiry dates and logs spoiled items to cut household food waste.",
-        "id": "Aplikasi web full-stack yang melacak tanggal kedaluwarsa makanan dan mencatat makanan basi untuk mengurangi sampah makanan rumah tangga."
+        "en": "A full-stack web app that tracks food expiry dates and logs spoiled items to cut household food waste. Built as a group project.",
+        "id": "Aplikasi web full-stack yang melacak tanggal kedaluwarsa makanan dan mencatat makanan basi untuk mengurangi sampah makanan rumah tangga. Dikerjakan sebagai proyek kelompok."
       },
       "problem": {
         "en": "Households lose track of what is in the fridge, so food expires unnoticed and money is wasted.",
