@@ -1,0 +1,992 @@
+{
+ "raw_rows": 128975,
+ "duplicates": 6,
+ "date_min": "2022-03-31",
+ "date_max": "2022-06-29",
+ "march_rows": 171,
+ "failed_rows": 20669,
+ "failed_rate": 16.03,
+ "failed_by_category": [
+  {
+   "category": "Set",
+   "rate": 16.48,
+   "orders": 50281
+  },
+  {
+   "category": "kurta",
+   "rate": 16.25,
+   "orders": 49874
+  },
+  {
+   "category": "Western Dress",
+   "rate": 15.96,
+   "orders": 15500
+  },
+  {
+   "category": "Bottom",
+   "rate": 15.23,
+   "orders": 440
+  },
+  {
+   "category": "Blouse",
+   "rate": 14.25,
+   "orders": 926
+  },
+  {
+   "category": "Ethnic Dress",
+   "rate": 13.98,
+   "orders": 1159
+  },
+  {
+   "category": "Saree",
+   "rate": 13.41,
+   "orders": 164
+  },
+  {
+   "category": "Top",
+   "rate": 13.36,
+   "orders": 10622
+  },
+  {
+   "category": "Dupatta",
+   "rate": 0.0,
+   "orders": 3
+  }
+ ],
+ "failed_by_fulfilment": [
+  {
+   "fulfilment": "Amazon",
+   "rate": 13.03,
+   "orders": 89692
+  },
+  {
+   "fulfilment": "Merchant",
+   "rate": 22.87,
+   "orders": 39277
+  }
+ ],
+ "promo_tag_total": 675633,
+ "promo_tags_top": [
+  {
+   "name": "Amazon PLCC Free-Financing Universal Merchant",
+   "count": 627891
+  },
+  {
+   "name": "IN Core Free Shipping 2015/04/08 23-48-5-108",
+   "count": 45830
+  },
+  {
+   "name": "Duplicated A12RHGVGRWOT3S 1560498941486",
+   "count": 488
+  }
+ ],
+ "fulfilled_by_redundant": true,
+ "clean_rows": 106012,
+ "revenue": 70284203.0,
+ "units": 106399,
+ "amount_median": 625.0,
+ "amount_mean": 663.0,
+ "amount_min": 199.0,
+ "amount_max": 5584.0,
+ "amount_skew": 1.16,
+ "qty1_share": 99.68,
+ "amount_hist": [
+  {
+   "from": 0,
+   "to": 100,
+   "count": 0
+  },
+  {
+   "from": 100,
+   "to": 200,
+   "count": 3
+  },
+  {
+   "from": 200,
+   "to": 300,
+   "count": 1593
+  },
+  {
+   "from": 300,
+   "to": 400,
+   "count": 17514
+  },
+  {
+   "from": 400,
+   "to": 500,
+   "count": 17607
+  },
+  {
+   "from": 500,
+   "to": 600,
+   "count": 15033
+  },
+  {
+   "from": 600,
+   "to": 700,
+   "count": 13586
+  },
+  {
+   "from": 700,
+   "to": 800,
+   "count": 16410
+  },
+  {
+   "from": 800,
+   "to": 900,
+   "count": 7602
+  },
+  {
+   "from": 900,
+   "to": 1000,
+   "count": 4616
+  },
+  {
+   "from": 1000,
+   "to": 1100,
+   "count": 2562
+  },
+  {
+   "from": 1100,
+   "to": 1200,
+   "count": 5109
+  },
+  {
+   "from": 1200,
+   "to": 1300,
+   "count": 1400
+  },
+  {
+   "from": 1300,
+   "to": 1400,
+   "count": 1455
+  },
+  {
+   "from": 1400,
+   "to": 1500,
+   "count": 850
+  },
+  {
+   "from": 1500,
+   "to": 1600,
+   "count": 433
+  },
+  {
+   "from": 1600,
+   "to": 1700,
+   "count": 156
+  },
+  {
+   "from": 1700,
+   "to": 1800,
+   "count": 19
+  },
+  {
+   "from": 1800,
+   "to": 1900,
+   "count": 2
+  },
+  {
+   "from": 1900,
+   "to": 2000,
+   "count": 15
+  },
+  {
+   "from": 2000,
+   "to": 2100,
+   "count": 6
+  },
+  {
+   "from": 2100,
+   "to": 2200,
+   "count": 6
+  },
+  {
+   "from": 2200,
+   "to": 2300,
+   "count": 10
+  },
+  {
+   "from": 2300,
+   "to": 2400,
+   "count": 8
+  },
+  {
+   "from": 2400,
+   "to": 2500,
+   "count": 17
+  }
+ ],
+ "categories": [
+  {
+   "category": "Set",
+   "units": 41127,
+   "orders": 41004,
+   "revenue": 35029420.0,
+   "median": 788.0
+  },
+  {
+   "category": "kurta",
+   "units": 41101,
+   "orders": 40921,
+   "revenue": 19079736.0,
+   "median": 441.0
+  },
+  {
+   "category": "Western Dress",
+   "units": 12853,
+   "orders": 12809,
+   "revenue": 9958550.0,
+   "median": 744.0
+  },
+  {
+   "category": "Top",
+   "units": 9058,
+   "orders": 9035,
+   "revenue": 4835696.0,
+   "median": 529.0
+  },
+  {
+   "category": "Ethnic Dress",
+   "units": 968,
+   "orders": 965,
+   "revenue": 721055.0,
+   "median": 837.0
+  },
+  {
+   "category": "Blouse",
+   "units": 778,
+   "orders": 772,
+   "revenue": 411661.0,
+   "median": 545.0
+  },
+  {
+   "category": "Bottom",
+   "units": 366,
+   "orders": 362,
+   "revenue": 133474.0,
+   "median": 345.0
+  },
+  {
+   "category": "Saree",
+   "units": 145,
+   "orders": 141,
+   "revenue": 113696.0,
+   "median": 791.0
+  },
+  {
+   "category": "Dupatta",
+   "units": 3,
+   "orders": 3,
+   "revenue": 915.0,
+   "median": 305.0
+  }
+ ],
+ "sizes": [
+  {
+   "size": "XS",
+   "units": 9034
+  },
+  {
+   "size": "S",
+   "units": 13889
+  },
+  {
+   "size": "M",
+   "units": 18540
+  },
+  {
+   "size": "L",
+   "units": 18181
+  },
+  {
+   "size": "XL",
+   "units": 17305
+  },
+  {
+   "size": "XXL",
+   "units": 15083
+  },
+  {
+   "size": "3XL",
+   "units": 12535
+  },
+  {
+   "size": "4XL",
+   "units": 371
+  },
+  {
+   "size": "5XL",
+   "units": 478
+  },
+  {
+   "size": "6XL",
+   "units": 654
+  },
+  {
+   "size": "Free",
+   "units": 329
+  }
+ ],
+ "heatmap": {
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL",
+   "4XL",
+   "5XL",
+   "6XL",
+   "Free"
+  ],
+  "rows": [
+   {
+    "category": "Set",
+    "values": [
+     788.0,
+     788.0,
+     788.0,
+     788.0,
+     788.0,
+     788.0,
+     788.0,
+     1325.0,
+     1325.0,
+     1399.0,
+     null
+    ]
+   },
+   {
+    "category": "kurta",
+    "values": [
+     399.0,
+     435.0,
+     435.0,
+     435.0,
+     435.0,
+     442.0,
+     449.0,
+     798.0,
+     764.0,
+     798.0,
+     null
+    ]
+   },
+   {
+    "category": "Western Dress",
+    "values": [
+     744.0,
+     771.0,
+     744.0,
+     744.0,
+     771.0,
+     771.0,
+     744.0,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "category": "Top",
+    "values": [
+     518.0,
+     518.0,
+     540.0,
+     523.0,
+     518.0,
+     518.0,
+     545.0,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "category": "Ethnic Dress",
+    "values": [
+     721.0,
+     837.0,
+     845.0,
+     799.0,
+     845.0,
+     791.0,
+     791.0,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "category": "Blouse",
+    "values": [
+     440.0,
+     625.0,
+     625.0,
+     599.0,
+     625.0,
+     599.0,
+     null,
+     null,
+     null,
+     null,
+     388.0
+    ]
+   },
+   {
+    "category": "Bottom",
+    "values": [
+     345.0,
+     312.0,
+     331.0,
+     331.0,
+     345.0,
+     345.0,
+     360.0,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   {
+    "category": "Saree",
+    "values": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     791.0
+    ]
+   },
+   {
+    "category": "Dupatta",
+    "values": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     305.0
+    ]
+   }
+  ]
+ },
+ "monthly": [
+  {
+   "month": "April",
+   "values": {
+    "Set": 16466,
+    "kurta": 16083,
+    "Western Dress": 3505
+   }
+  },
+  {
+   "month": "May",
+   "values": {
+    "Set": 13118,
+    "kurta": 12406,
+    "Western Dress": 4990
+   }
+  },
+  {
+   "month": "June",
+   "values": {
+    "Set": 11479,
+    "kurta": 12541,
+    "Western Dress": 4352
+   }
+  }
+ ],
+ "monthly_categories": [
+  "Set",
+  "kurta",
+  "Western Dress"
+ ],
+ "weekly_revenue": [
+  {
+   "week": "2022-04-04",
+   "revenue": 5994660.0
+  },
+  {
+   "week": "2022-04-11",
+   "revenue": 6097651.0
+  },
+  {
+   "week": "2022-04-18",
+   "revenue": 6312788.0
+  },
+  {
+   "week": "2022-04-25",
+   "revenue": 5774334.0
+  },
+  {
+   "week": "2022-05-02",
+   "revenue": 6484603.0
+  },
+  {
+   "week": "2022-05-09",
+   "revenue": 4683141.0
+  },
+  {
+   "week": "2022-05-16",
+   "revenue": 4656091.0
+  },
+  {
+   "week": "2022-05-23",
+   "revenue": 5094728.0
+  },
+  {
+   "week": "2022-05-30",
+   "revenue": 5552814.0
+  },
+  {
+   "week": "2022-06-06",
+   "revenue": 5794674.0
+  },
+  {
+   "week": "2022-06-13",
+   "revenue": 4955551.0
+  },
+  {
+   "week": "2022-06-20",
+   "revenue": 4526757.0
+  }
+ ],
+ "top_states": [
+  {
+   "state": "Maharashtra",
+   "revenue": 12053998.0
+  },
+  {
+   "state": "Karnataka",
+   "revenue": 9522813.0
+  },
+  {
+   "state": "Telangana",
+   "revenue": 6184512.0
+  },
+  {
+   "state": "Uttar Pradesh",
+   "revenue": 6023110.0
+  },
+  {
+   "state": "Tamil Nadu",
+   "revenue": 5861782.0
+  },
+  {
+   "state": "Delhi",
+   "revenue": 3937946.0
+  },
+  {
+   "state": "Kerala",
+   "revenue": 3327231.0
+  },
+  {
+   "state": "West Bengal",
+   "revenue": 3125170.0
+  }
+ ],
+ "state_top5_share": 56.41,
+ "b2b_units_share": 0.75,
+ "segment_promo": [
+  {
+   "segment": "B2B",
+   "promo_share": 68.27,
+   "orders": 788,
+   "median_promo": 664.0,
+   "median_nopromo": 665.0
+  },
+  {
+   "segment": "B2C",
+   "promo_share": 72.3,
+   "orders": 105224,
+   "median_promo": 641.0,
+   "median_nopromo": 518.0
+  }
+ ],
+ "promo_by_fulfilment": [
+  {
+   "fulfilment": "Amazon",
+   "promo_share": 61.59
+  },
+  {
+   "fulfilment": "Merchant",
+   "promo_share": 99.93
+  }
+ ],
+ "ab": {
+  "Amount": {
+   "mean_a": 615.8333,
+   "mean_b": 681.074,
+   "p_t": 2.129450374390916e-273,
+   "p_mwu": 0.0,
+   "d": 0.2437
+  },
+  "Qty": {
+   "mean_a": 1.0015,
+   "mean_b": 1.0045,
+   "p_t": 1.7866910577828793e-12,
+   "p_mwu": 5.112604259201417e-13,
+   "d": 0.0423
+  },
+  "adjusted_diff": 11.51,
+  "raw_diff": 65.24,
+  "n_a": 29396,
+  "n_b": 76616,
+  "strata": [
+   {
+    "fulfilment": "Amazon",
+    "category": "Western Dress",
+    "diff": -26.7,
+    "n": 7412
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "Set",
+    "diff": -4.1,
+    "n": 30037
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "Top",
+    "diff": 27.7,
+    "n": 7047
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "kurta",
+    "diff": 30.7,
+    "n": 30306
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "Blouse",
+    "diff": 41.1,
+    "n": 606
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "Ethnic Dress",
+    "diff": 51.4,
+    "n": 734
+   },
+   {
+    "fulfilment": "Amazon",
+    "category": "Bottom",
+    "diff": 52.5,
+    "n": 216
+   }
+  ]
+ },
+ "tests": {
+  "shapiro": {
+   "w_a": 0.8785,
+   "p_a": 1.5475657744077649e-52,
+   "w_b": 0.9311,
+   "p_b": 3.774783503863378e-43
+  },
+  "anova": {
+   "f": 10811.84,
+   "p": 0.0,
+   "p_levene": 0.0,
+   "h": 58218.33,
+   "p_kruskal": 0.0,
+   "eta_sq": 0.4493
+  },
+  "chi2": {
+   "chi2": 6.1295,
+   "dof": 1,
+   "p": 0.013294225073531367,
+   "cramers_v": 0.0076,
+   "table": {
+    "B2B": {
+     "promo": 538,
+     "no_promo": 250
+    },
+    "B2C": {
+     "promo": 76078,
+     "no_promo": 29146
+    }
+   }
+  }
+ },
+ "ols": {
+  "r2": 0.4981,
+  "adj_r2": 0.498,
+  "cond": 351.0,
+  "coefs": [
+   {
+    "feature": "Fulfilment_Merchant",
+    "coef": 27.79,
+    "p": 0.2727990673545467
+   },
+   {
+    "feature": "ship-service-level_Standard",
+    "coef": -41.35,
+    "p": 0.10211554607682577
+   },
+   {
+    "feature": "Category_Bottom",
+    "coef": -206.63,
+    "p": 2.9539816222419046e-59
+   },
+   {
+    "feature": "Category_Dupatta",
+    "coef": -113.05,
+    "p": 0.30891456180764276
+   },
+   {
+    "feature": "Category_Ethnic Dress",
+    "coef": 171.85,
+    "p": 8.564518636121401e-67
+   },
+   {
+    "feature": "Category_Saree",
+    "coef": 394.36,
+    "p": 1.528820315459122e-74
+   },
+   {
+    "feature": "Category_Set",
+    "coef": 280.26,
+    "p": 1.82682917272908e-275
+   },
+   {
+    "feature": "Category_Top",
+    "coef": -36.89,
+    "p": 4.905486947868225e-06
+   },
+   {
+    "feature": "Category_Western Dress",
+    "coef": 201.93,
+    "p": 7.435547788083971e-140
+   },
+   {
+    "feature": "Category_kurta",
+    "coef": -117.5,
+    "p": 3.0513581990566585e-50
+   },
+   {
+    "feature": "Size_4XL",
+    "coef": 321.86,
+    "p": 9.324699867990304e-222
+   },
+   {
+    "feature": "Size_5XL",
+    "coef": 310.41,
+    "p": 2.14828269725567e-263
+   },
+   {
+    "feature": "Size_6XL",
+    "coef": 323.86,
+    "p": 0.0
+   },
+   {
+    "feature": "Size_Free",
+    "coef": -179.15,
+    "p": 1.5959723610681794e-27
+   },
+   {
+    "feature": "Size_L",
+    "coef": -3.22,
+    "p": 0.14648540767313717
+   },
+   {
+    "feature": "Size_M",
+    "coef": -1.51,
+    "p": 0.49642489878087437
+   },
+   {
+    "feature": "Size_S",
+    "coef": -1.8,
+    "p": 0.4452761014043065
+   },
+   {
+    "feature": "Size_XL",
+    "coef": -2.66,
+    "p": 0.23648943864660124
+   },
+   {
+    "feature": "Size_XS",
+    "coef": -15.46,
+    "p": 5.125714223289166e-09
+   },
+   {
+    "feature": "Size_XXL",
+    "coef": -4.25,
+    "p": 0.06594730179199026
+   },
+   {
+    "feature": "Month_June",
+    "coef": 34.3,
+    "p": 1.4743857332103367e-123
+   },
+   {
+    "feature": "Month_March",
+    "coef": -6.82,
+    "p": 0.6611556067589557
+   },
+   {
+    "feature": "Month_May",
+    "coef": 25.63,
+    "p": 4.783233002051823e-74
+   },
+   {
+    "feature": "Qty",
+    "coef": 583.21,
+    "p": 0.0
+   },
+   {
+    "feature": "B2B",
+    "coef": 27.7,
+    "p": 4.968258787816094e-05
+   },
+   {
+    "feature": "Promo",
+    "coef": 11.28,
+    "p": 4.134244423710075e-15
+   }
+  ]
+ },
+ "train_rows": 84809,
+ "test_rows": 21203,
+ "rf_baseline": {
+  "r2": 0.505,
+  "mae": 139.13,
+  "rmse": 190.17,
+  "mape": 21.23,
+  "cv": [
+   0.4947,
+   0.4889,
+   0.4984,
+   0.5075,
+   0.5127
+  ],
+  "cv_mean": 0.5004,
+  "cv_std": 0.0086,
+  "importance": [
+   {
+    "feature": "Category",
+    "value": 0.8683
+   },
+   {
+    "feature": "Size",
+    "value": 0.0516
+   },
+   {
+    "feature": "Qty",
+    "value": 0.0496
+   },
+   {
+    "feature": "Month_cos",
+    "value": 0.0093
+   },
+   {
+    "feature": "Month_sin",
+    "value": 0.0091
+   },
+   {
+    "feature": "Promo",
+    "value": 0.0046
+   },
+   {
+    "feature": "ship-service-level",
+    "value": 0.0031
+   },
+   {
+    "feature": "B2B",
+    "value": 0.0023
+   },
+   {
+    "feature": "Fulfilment",
+    "value": 0.0021
+   },
+   {
+    "feature": "Sales Channel",
+    "value": 0.0
+   }
+  ]
+ },
+ "rf_tuned": {
+  "r2": 0.5059,
+  "mae": 139.11,
+  "rmse": 190.0,
+  "mape": 21.25,
+  "cv": [
+   0.4987,
+   0.4909,
+   0.4993,
+   0.507,
+   0.5149
+  ],
+  "cv_mean": 0.5022,
+  "cv_std": 0.0081,
+  "importance": [
+   {
+    "feature": "Category",
+    "value": 0.8769
+   },
+   {
+    "feature": "Qty",
+    "value": 0.0484
+   },
+   {
+    "feature": "Size",
+    "value": 0.0457
+   },
+   {
+    "feature": "Promo",
+    "value": 0.0097
+   },
+   {
+    "feature": "Month_cos",
+    "value": 0.008
+   },
+   {
+    "feature": "Month_sin",
+    "value": 0.0072
+   },
+   {
+    "feature": "ship-service-level",
+    "value": 0.0018
+   },
+   {
+    "feature": "Fulfilment",
+    "value": 0.0015
+   },
+   {
+    "feature": "B2B",
+    "value": 0.0008
+   },
+   {
+    "feature": "Sales Channel",
+    "value": 0.0
+   }
+  ],
+  "params": {
+   "bootstrap": false,
+   "max_depth": 10,
+   "max_features": 0.5,
+   "min_samples_leaf": 1,
+   "min_samples_split": 2,
+   "n_estimators": 100
+  }
+ }
+}

@@ -1207,16 +1207,41 @@ svg {
     transform: translateX(8px);
   }
 }
-@media (min-width: 900px) {
-  .card {
-    grid-template-columns: minmax(0, 1fr) minmax(200px, 280px) 48px;
-    grid-template-areas: 'body lead arrow';
-    column-gap: 32px;
-    padding: 40px 0;
+/* Kartu ringkas: KPI + panah di atas, lalu judul, ringkasan, stack. */
+.card {
+  grid-template-areas: 'lead arrow' 'body body';
+  align-items: start;
+  padding: 24px 0 28px;
+}
+.card .metric__value {
+  font-size: clamp(2.25rem, 1.8rem + 1.4vw, 3.25rem);
+}
+.card__title {
+  font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.125rem);
+}
+.card__summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* 2 kolom di tablet ke atas: 4 proyek jadi 2x2. */
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 48px;
   }
-  .card__lead {
-    justify-items: end;
-    text-align: right;
+  .cards > li {
+    display: flex;
+  }
+  .cards > li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+  .card {
+    height: 100%;
+    align-content: start;
+    padding: 32px 0 36px;
   }
 }
 
