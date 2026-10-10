@@ -8,7 +8,7 @@ import HeroGallery from './HeroGallery';
 import { IconArrowDown, IconArrowRight, IconArrowUp, IconDownload } from './Icons';
 
 /** Taruh PDF CV di public/ dengan nama ini. */
-export const CV_URL = '/CV%20Aldreine%20Vanda%20Kauntu.pdf';
+export const CV_URL = '/CVAldreineVandaKauntu.pdf';
 
 /** Judul section yang jelas ("About Me", "Experience") dengan satu kalimat pendukung. */
 export function SectionHeader({ id, heading, title }: { id: string; heading: L; title?: L }) {
